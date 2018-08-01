@@ -1,8 +1,11 @@
 -#!/bin/sh
 ssh ubuntu@172.31.27.107 <<EOF       
  cd /usr/src/app/test
- git pull       
- npm install
- npm start
+
+sudo git pull       
+sudo npm install
+
+
+sudo npm start
  exit       
 EOF
